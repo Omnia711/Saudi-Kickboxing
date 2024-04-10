@@ -79,10 +79,7 @@ input:active,
 button:active,
 button:hover,
 textarea:active,
-textarea:focus,
-select,
-select:active,
-select:focus {
+textarea:focus{
   outline: none !important;
 }
 
@@ -720,7 +717,7 @@ footer .footer-layer {
     margin: 0 !important;
   }
 }
-
+/* ceo word */
 #ceo .ceo-img {
   border: 2px solid #058141;
   width: 500px;
@@ -759,6 +756,7 @@ footer .footer-layer {
     text-align: center;
   }
 }
+
 #laws,
 #reports {
   width: 1050px;
@@ -818,6 +816,8 @@ footer .footer-layer {
     flex-wrap: nowrap;
   }
 }
+
+/* memberShip */
 #member {
   width: 1270px;
   height: 700px;
@@ -1023,6 +1023,7 @@ footer .footer-layer {
     right: 20%;
   }
 }
+
 /* news section  */
 #news a:hover {
   color: #000;
@@ -1079,6 +1080,7 @@ footer .footer-layer {
 #news .details:hover .moreDetails {
   bottom: 0;
 }
+
 /* photos section  */
 #photos .photo {
   position: relative;
@@ -1158,6 +1160,7 @@ footer .footer-layer {
   }
 }
 
+/* video section */
 #video .video {
   position: relative;
   border-radius: 5px;
@@ -1242,6 +1245,8 @@ footer .footer-layer {
     height: 90%;
   }
 }
+
+/* contact section */
 #contact h3 {
   font-family: var(--sec-font);
   font-size: 30px;
@@ -1279,7 +1284,7 @@ textarea {
     min-height: 1000px !important;
   }
 }
-
+/* logo "main" page */
 .main {
   width: 100%;
   height: 150px;
